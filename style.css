@@ -39,7 +39,8 @@
     
     .card {
       display: flex;
-      min-height: 100px;
+      min-height: 475px;
+      max-width: 700px;
       border-radius: 25px;
       height: 40vh;
       background-color: var(--white);
@@ -47,7 +48,7 @@
     }
 
     .resultCard {
-      width: 25vw;
+      width: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -57,7 +58,7 @@
 
     .resultCard #title {
         color: var(--light-lavender);
-        font-size: 18px;
+        font-size: 24px;
         font-weight: bold;
         margin-top: 10%;
         margin-bottom: 10%;
@@ -77,7 +78,7 @@
     .resultCard .circle #one {
         color: var(--white);
         font-family:;
-        font-size: 60px;
+        font-size: 70px;
         font-weight: bolder;
     }
 
@@ -87,7 +88,7 @@
 
     .resultCard #rating {
         color: var(--white);
-        font-size: 24px;
+        font-size: 30px;
         font-weight: bold;
         margin-top: 10%;
     }
@@ -100,17 +101,17 @@
     }
 
     .summaryCard {
-      width: 25vw;
+      width: 50%;
       display: flex;
       flex-direction: column;
-      margin-left: 5%;
-      margin-right: 5%;
+      padding-left: 5%;
+      padding-right: 5%;
     }
 
     .summaryCard #title {
         margin-top: 10%;
         margin-bottom: 7%;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: bold;
     }
 
@@ -129,8 +130,13 @@
         border-radius: 7px;
     }
 
+    .reaction .group {
+        display: flex;
+    }
+
     .reaction .name {
         color: var(--light-red);
+        margin-left: 10px;
     }
 
     .attributes .memory {
@@ -142,8 +148,13 @@
         border-radius: 7px;
     }
 
+    .memory .group {
+        display: flex;
+    }
+
     .memory .name {
         color: var(--orangey-yellow);
+        margin-left: 10px;
     }
 
     .attributes .verbal {
@@ -155,8 +166,13 @@
         border-radius: 7px;
     }
 
+    .verbal .group {
+        display: flex;
+    }
+
     .verbal .name {
         color: var(--green-teal);
+        margin-left: 10px;
     }
 
     .attributes .visual {
@@ -168,8 +184,13 @@
         border-radius: 7px;
     }
 
+    .visual .group {
+        display: flex;
+    }
+
     .visual .name {
         color: var(--cobalt-blue);
+        margin-left: 10px;
     }
 
     .summaryCard button {
