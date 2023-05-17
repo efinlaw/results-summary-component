@@ -27,6 +27,7 @@
     html {
       height: 100%;
       font-family: 'HankenGrotesk';
+      font-size: 18px;
     }
 
     body {
@@ -102,7 +103,87 @@
       width: 25vw;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .summaryCard #title {
+        margin-top: 10%;
+        margin-bottom: 7%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .attributes {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .attributes .reaction {
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(0, 100%, 67%, .05);
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 7px;
+    }
+
+    .reaction .name {
+        color: var(--light-red);
+    }
+
+    .attributes .memory {
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(39, 100%, 56%, .05);
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 7px;
+    }
+
+    .memory .name {
+        color: var(--orangey-yellow);
+    }
+
+    .attributes .verbal {
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(166, 100%, 37%, .05);
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 7px;
+    }
+
+    .verbal .name {
+        color: var(--green-teal);
+    }
+
+    .attributes .visual {
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(234, 85%, 45%, .05);
+        padding: 15px;
+        margin-bottom: 40px;
+        border-radius: 7px;
+    }
+
+    .visual .name {
+        color: var(--cobalt-blue);
+    }
+
+    .summaryCard button {
+        height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 25px;
+        color: var(--white);
+        background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+    }
+
+    span {
+        color: gray;
     }
 
 .attribution { font-size: 11px; text-align: center; }
